@@ -45,21 +45,42 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     width: auto;
     border-radius: 25px;
     background: rgb(96,5,5);
-    background: -moz-linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(0,0,0,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(0,0,0,1) 100%);
-    background: linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#600505",endColorstr="#000000",GradientType=1);
-    margin-top: 25px !important;
+    background: -moz-linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(33,33,33,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(33,33,33,1) 100%);
+    background: linear-gradient(90deg, rgba(96,5,5,1) 0%, rgba(33,33,33,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#600505",endColorstr="#212121",GradientType=1);margin-top: 25px !important;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 600;
 }
 
 .content p {
-    color: #fff;
-    font-size: 50px;
-    font-weight: 600;
+    color: #d1d5db;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content span {
+    color: #d1d5db;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.content li {
+    padding: 10px;
 }
 
 header {
@@ -80,9 +101,8 @@ header ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
 }
 
 header li a {
@@ -96,4 +116,10 @@ header li a {
 
 header li a:hover {
     border-bottom: 1px solid #fff;
+}
+
+header nav {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
