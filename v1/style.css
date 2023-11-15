@@ -42,6 +42,16 @@ body, html {
     margin: 0 auto;
 }
 
+.content-inner-home {
+    height: 95vh;
+    background-color: #230007;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-inner {
     height: 95vh;
     background-color: #230007;
@@ -50,6 +60,20 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-inner h2 {
+    color: #d4be98;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content-inner ul {;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #d4be98;
 }
 
 .content h1 {
