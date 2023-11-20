@@ -18,7 +18,3 @@ body, html {
     background: #000;
     border-radius: 5px;
 }
-
-header {
-    z-index: 500;
-}
